@@ -1,0 +1,85 @@
+--numbers > *[{(#^)}]$
+{1}>{speed9}{-rshift}{8}{+rshift}
+{2}>{speed9}{obrack}
+{3}>{speed9}{-rshift}{obrack}{+rshift}
+{4}>{speed9}{-rshift}{9}{+rshift}
+{5}>{speed9}{\}
+{6}>{speed9}{-rshift}{6}{+rshift}
+{7}>{speed9}{-rshift}{0}{+rshift}
+{8}>{speed9}{-rshift}{cbrack}{+rshift}
+{9}>{speed9}{cbrack}
+{0}>{speed9}{-rshift}{4}{+rshift}
+
+--shift+numbers > 1234567890
+{lshift}{1}>{speed9}{1}{-lshift}
+{lshift}{2}>{speed9}{2}{-lshift}
+{lshift}{3}>{speed9}{3}{-lshift}
+{lshift}{4}>{speed9}{4}{-lshift}
+{lshift}{5}>{speed9}{5}{-lshift}
+{lshift}{6}>{speed9}{6}{-lshift}
+{lshift}{7}>{speed9}{7}{-lshift}
+{lshift}{8}>{speed9}{8}{-lshift}
+{lshift}{9}>{speed9}{9}{-lshift}
+{lshift}{0}>{speed9}{0}{-lshift}
+
+--£
+{\}>{speed9}{-rshift}{3}{+rshift}
+
+--esc/caps swap
+[escape]>[caps]
+[caps]>[escape]
+
+--up/down swap
+[up]>[down]
+[down]>[up]
+
+--remove access to rshift for macro use
+[rshift]>[lshift]
+
+--square bracket keys &! shift-%"
+{obrack}>{speed9}{-rshift}{7}{+rshift}
+{lshift}{obrack}>{speed9}{-rshift}{5}{+rshift}{-lshift}
+{cbrack}>{speed9}{-rshift}{1}{+rshift}
+{lshift}{cbrack}>{speed9}{-rshift}{2}{+rshift}{-lshift}
+
+--thumbkeys
+[delete]>[rwin]
+[home]>[lalt]
+[pup]>[lalt]
+[end]>[lctrl]
+[pdown]>[rctrl]
+[lalt]>[ralt]
+{lctrl}{bspace}>{speed9}{delete}{-lctrl}
+{rctrl}{bspace}>{speed9}{delete}{-rctrl}
+
+
+--Keypad--
+--remove need for numlock
+[kp1]>[1]
+[kp2]>[2]
+[kp3]>[3]
+[kp4]>[4]
+[kp5]>[5]
+[kp6]>[6]
+[kp7]>[7]
+[kp8]>[8]
+[kp9]>[9]
+[kp0]>[0]
+[kp.]>[.]
+
+--esc from kp layer with esc
+[kp-caps]>[kptoggle]
+
+--up/down swap
+[kp-up]>[down]
+[kp-down]>[up]
+
+--thumbkeys
+[kp-delete]>[rwin]
+[kp-home]>[lalt]
+[kp-pup]>[lalt]
+[kp-end]>[lctrl]
+[kp-pdown]>[rctrl]
+[kp-lalt]>[ralt]
+{lctrl}{kp-bspace}>{speed9}{delete}{-lctrl}
+{rctrl}{kp-bspace}>{speed9}{delete}{-rctrl}
