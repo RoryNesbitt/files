@@ -67,6 +67,9 @@
 [kp0]>[0]
 [kp.]>[.]
 
+--Add a colon key
+{kp-bspace}>{speed9}{-rshift}{;}{+rshift}
+
 --esc from kp layer with esc
 [kp-caps]>[kptoggle]
 
