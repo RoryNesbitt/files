@@ -1,9 +1,9 @@
 --numbers > *[{(#^)}]$
-{1}>{speed9}{-rshift}{8}{+rshift}
+{1}>{speed9}{\}
 {2}>{speed9}{obrack}
 {3}>{speed9}{-rshift}{obrack}{+rshift}
 {4}>{speed9}{-rshift}{9}{+rshift}
-{5}>{speed9}{\}
+{5}>{speed9}{-rshift}{8}{+rshift}
 {6}>{speed9}{-rshift}{6}{+rshift}
 {7}>{speed9}{-rshift}{0}{+rshift}
 {8}>{speed9}{-rshift}{cbrack}{+rshift}
