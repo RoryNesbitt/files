@@ -48,7 +48,7 @@
 [pup]>[lalt]
 [end]>[lctrl]
 [pdown]>[rctrl]
-[lalt]>[ralt]
+[lalt]>[kpshft]
 {lctrl}{bspace}>{speed9}{delete}{-lctrl}
 {rctrl}{bspace}>{speed9}{delete}{-rctrl}
 
@@ -83,6 +83,6 @@
 [kp-pup]>[lalt]
 [kp-end]>[lctrl]
 [kp-pdown]>[rctrl]
-[kp-lalt]>[ralt]
+[kp-lalt]>[kpshft]
 {lctrl}{kp-bspace}>{speed9}{delete}{-lctrl}
 {rctrl}{kp-bspace}>{speed9}{delete}{-rctrl}
