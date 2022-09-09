@@ -48,7 +48,9 @@
 [pup]>[lalt]
 [end]>[lctrl]
 [pdown]>[rctrl]
-[lalt]>[kpshft]
+[lctrl]>[kpshft]
+[rctrl]>[kptoggle]
+[lalt]>[ralt]
 {lctrl}{bspace}>{speed9}{delete}{-lctrl}
 {rctrl}{bspace}>{speed9}{delete}{-rctrl}
 
@@ -83,6 +85,8 @@
 [kp-pup]>[lalt]
 [kp-end]>[lctrl]
 [kp-pdown]>[rctrl]
-[kp-lalt]>[kpshft]
+[kp-lctrl]>[kpshft]
+[kp-rctrl]>[kptoggle]
+[kp-lalt]>[kp-ralt]
 {lctrl}{kp-bspace}>{speed9}{delete}{-lctrl}
 {rctrl}{kp-bspace}>{speed9}{delete}{-rctrl}
