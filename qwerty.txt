@@ -36,14 +36,15 @@
 --remove access to rshift for macro use
 [rshift]>[lshift]
 
---square bracket keys &! shift-%"
+--square bracket keys &! shift %"
 {obrack}>{speed9}{-rshift}{7}{+rshift}
 {lshift}{obrack}>{speed9}{-rshift}{5}{+rshift}{-lshift}
 {cbrack}>{speed9}{-rshift}{1}{+rshift}
 {lshift}{cbrack}>{speed9}{-rshift}{2}{+rshift}{-lshift}
 
 --thumbkeys
-[delete]>[rwin]
+[rwin]>[lwin]
+[delete]>[lwin]
 [home]>[lalt]
 [pup]>[lalt]
 [end]>[lctrl]
@@ -81,7 +82,8 @@
 [kp-down]>[up]
 
 --thumbkeys
-[kp-delete]>[rwin]
+[kp-rwin]>[lwin]
+[kp-delete]>[lwin]
 [kp-home]>[lalt]
 [kp-pup]>[lalt]
 [kp-end]>[lctrl]
